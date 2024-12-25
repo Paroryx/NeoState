@@ -1,0 +1,318 @@
+[
+  {
+    "username": "676c36a299cf5dc0cd52a881",
+    "token": 0,
+    "last_presence": "",
+    "date": "488e6ffb-5f94-4867-8a48-2f14369979fc",
+    "isActive": false,
+    "balance": "$1,219.19",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "green",
+    "name": "Maria Gillespie",
+    "gender": "female",
+    "company": "FLOTONIC",
+    "email": "mariagillespie@flotonic.com",
+    "phone": "+1 (881) 546-2829",
+    "address": "368 Hornell Loop, Rosine, Texas, 3376",
+    "about": "Id sit officia occaecat occaecat commodo consequat ullamco amet irure. Duis ex laboris nulla in quis veniam aliquip ullamco velit aute voluptate. Irure Lorem ut tempor ex magna id ullamco deserunt eu. Cupidatat cillum et adipisicing fugiat amet nostrud dolor. Anim amet commodo labore exercitation. Aute esse culpa consequat incididunt sunt labore dolor consectetur occaecat id.\r\n",
+    "registered": "2014-01-31T09:41:26 -01:00",
+    "latitude": 22.375543,
+    "longitude": 90.192877,
+    "tags": [
+      "in",
+      "ea",
+      "reprehenderit",
+      "et",
+      "laborum",
+      "nisi",
+      "consequat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Robert Huffman"
+      },
+      {
+        "id": 1,
+        "name": "Short Cunningham"
+      },
+      {
+        "id": 2,
+        "name": "Caroline Ashley"
+      }
+    ],
+    "greeting": "Hello, Maria Gillespie! You have 9 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "676c36a2a51def20ca33a659",
+    "index": 1,
+    "guid": "8e542ce2-f9d2-4a53-9169-a9070399f97f",
+    "isActive": true,
+    "balance": "$1,447.29",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "brown",
+    "name": "Janette Wilson",
+    "gender": "female",
+    "company": "ACCUPRINT",
+    "email": "janettewilson@accuprint.com",
+    "phone": "+1 (853) 486-2802",
+    "address": "211 Manor Court, Vaughn, Idaho, 6414",
+    "about": "Aute adipisicing nulla sit consequat anim eiusmod consequat dolor nulla mollit velit culpa. Labore fugiat et tempor aute. Velit pariatur laboris laborum excepteur est enim sunt ut sit.\r\n",
+    "registered": "2022-09-11T10:04:18 -02:00",
+    "latitude": 18.456188,
+    "longitude": 161.383351,
+    "tags": [
+      "excepteur",
+      "quis",
+      "velit",
+      "quis",
+      "qui",
+      "excepteur",
+      "aliqua"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Angelica Boone"
+      },
+      {
+        "id": 1,
+        "name": "Diane Reid"
+      },
+      {
+        "id": 2,
+        "name": "Freida Sweeney"
+      }
+    ],
+    "greeting": "Hello, Janette Wilson! You have 6 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "676c36a27a01bd0bdba70370",
+    "index": 2,
+    "guid": "f27aee0b-6b7f-424b-abcd-15f28f92d04d",
+    "isActive": true,
+    "balance": "$1,858.73",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Melanie Moreno",
+    "gender": "female",
+    "company": "TELPOD",
+    "email": "melaniemoreno@telpod.com",
+    "phone": "+1 (931) 460-3888",
+    "address": "383 Landis Court, Whitewater, Maryland, 5692",
+    "about": "Eiusmod anim enim est ullamco in est tempor laborum incididunt duis excepteur. Ullamco ex aliquip do incididunt amet laboris eiusmod reprehenderit officia duis consequat excepteur. Incididunt officia exercitation velit veniam nisi sint labore aute deserunt sit. Reprehenderit reprehenderit ut consequat velit. Duis aute officia commodo minim aliqua laboris irure.\r\n",
+    "registered": "2017-12-09T07:22:40 -01:00",
+    "latitude": -77.143385,
+    "longitude": 16.796325,
+    "tags": [
+      "eiusmod",
+      "consectetur",
+      "enim",
+      "nostrud",
+      "eu",
+      "consequat",
+      "minim"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Alisa Navarro"
+      },
+      {
+        "id": 1,
+        "name": "Franks Harvey"
+      },
+      {
+        "id": 2,
+        "name": "Beasley Glass"
+      }
+    ],
+    "greeting": "Hello, Melanie Moreno! You have 10 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "676c36a2730b4e6fd0e696a1",
+    "index": 3,
+    "guid": "77a38f09-f461-4f56-87f1-2817007b4cff",
+    "isActive": false,
+    "balance": "$3,011.44",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "green",
+    "name": "Nannie Rogers",
+    "gender": "female",
+    "company": "EXERTA",
+    "email": "nannierogers@exerta.com",
+    "phone": "+1 (884) 486-2070",
+    "address": "554 Amersfort Place, Nicut, Indiana, 1647",
+    "about": "Incididunt pariatur ipsum ut sint ad incididunt fugiat cupidatat cupidatat ea ut ea amet. Lorem nostrud veniam deserunt commodo laborum anim enim nulla veniam mollit cillum non amet. Quis ipsum magna Lorem consectetur duis laborum mollit sunt esse laboris sit.\r\n",
+    "registered": "2023-11-25T07:10:25 -01:00",
+    "latitude": 67.152855,
+    "longitude": -8.907971,
+    "tags": [
+      "incididunt",
+      "eu",
+      "veniam",
+      "sit",
+      "non",
+      "mollit",
+      "incididunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Herman Peck"
+      },
+      {
+        "id": 1,
+        "name": "Vazquez Kaufman"
+      },
+      {
+        "id": 2,
+        "name": "Tracey Guzman"
+      }
+    ],
+    "greeting": "Hello, Nannie Rogers! You have 3 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "676c36a2a90dc44f3d5ac9b8",
+    "index": 4,
+    "guid": "efea4342-2c0b-41d0-a33a-64a260b0b65d",
+    "isActive": false,
+    "balance": "$3,351.25",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "green",
+    "name": "Dorothea Watkins",
+    "gender": "female",
+    "company": "INTERLOO",
+    "email": "dorotheawatkins@interloo.com",
+    "phone": "+1 (802) 520-2016",
+    "address": "654 Kosciusko Street, Goodville, Washington, 1488",
+    "about": "Aliquip dolor dolor incididunt mollit proident veniam laborum quis dolor elit. Esse consequat irure consectetur non culpa ad ex adipisicing. Nulla labore deserunt non officia aliquip reprehenderit proident nisi sint in ut. Adipisicing laborum esse ipsum labore.\r\n",
+    "registered": "2016-11-10T05:03:52 -01:00",
+    "latitude": -47.384186,
+    "longitude": 27.997881,
+    "tags": [
+      "aliquip",
+      "incididunt",
+      "sunt",
+      "do",
+      "mollit",
+      "in",
+      "do"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Katherine Briggs"
+      },
+      {
+        "id": 1,
+        "name": "Newman Patterson"
+      },
+      {
+        "id": 2,
+        "name": "Stevenson Waller"
+      }
+    ],
+    "greeting": "Hello, Dorothea Watkins! You have 5 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "676c36a2b8aa37e584a5dce4",
+    "index": 5,
+    "guid": "5895a5c2-619e-402e-b332-7b1e0b3d1760",
+    "isActive": false,
+    "balance": "$1,095.52",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "blue",
+    "name": "Sutton Conley",
+    "gender": "male",
+    "company": "ZANILLA",
+    "email": "suttonconley@zanilla.com",
+    "phone": "+1 (923) 506-3866",
+    "address": "698 Lawrence Avenue, Lindisfarne, Michigan, 7095",
+    "about": "Non commodo aliqua nostrud culpa nostrud. Commodo quis veniam pariatur et consectetur nostrud. Consequat exercitation ea consectetur quis amet.\r\n",
+    "registered": "2024-06-20T11:58:24 -02:00",
+    "latitude": 15.256436,
+    "longitude": 12.860524,
+    "tags": [
+      "enim",
+      "proident",
+      "nisi",
+      "sit",
+      "officia",
+      "quis",
+      "eiusmod"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Pearl Hopper"
+      },
+      {
+        "id": 1,
+        "name": "Wilda Branch"
+      },
+      {
+        "id": 2,
+        "name": "Wilson Shepherd"
+      }
+    ],
+    "greeting": "Hello, Sutton Conley! You have 4 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "676c36a22037ec7c6d03249f",
+    "index": 6,
+    "guid": "2d2d8d29-e304-4bde-95f2-e41d2b9b330a",
+    "isActive": false,
+    "balance": "$2,924.68",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "blue",
+    "name": "Wynn Travis",
+    "gender": "male",
+    "company": "EXOSPEED",
+    "email": "wynntravis@exospeed.com",
+    "phone": "+1 (994) 466-2080",
+    "address": "132 Newel Street, Glenshaw, South Dakota, 8742",
+    "about": "Anim sunt nulla reprehenderit irure sit aliquip labore. Proident ullamco ad exercitation excepteur est incididunt fugiat velit adipisicing tempor ad reprehenderit. Aute aliquip in mollit tempor adipisicing non ipsum sit amet cupidatat culpa. Ad aliqua aliquip anim sit sint excepteur in aliqua dolore incididunt. Amet eu pariatur in qui proident ea minim occaecat anim proident. Officia cillum magna id duis sint sit magna reprehenderit. Veniam sit dolor est ea laboris minim amet in Lorem veniam incididunt.\r\n",
+    "registered": "2019-07-28T04:27:41 -02:00",
+    "latitude": -30.975882,
+    "longitude": 112.44812,
+    "tags": [
+      "veniam",
+      "et",
+      "in",
+      "exercitation",
+      "et",
+      "consequat",
+      "id"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Schroeder Farrell"
+      },
+      {
+        "id": 1,
+        "name": "Araceli Cleveland"
+      },
+      {
+        "id": 2,
+        "name": "Martina Rose"
+      }
+    ],
+    "greeting": "Hello, Wynn Travis! You have 4 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]
