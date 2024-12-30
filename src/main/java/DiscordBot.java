@@ -13,7 +13,7 @@ public class DiscordBot {
             JDA api = JDABuilder.createDefault(token).build().awaitReady();
             return true;
         } catch (InvalidTokenException | InterruptedException e) {
-            System.out.println(e);
+            e.printStackTrace();
             return false;
         }
     }

@@ -3,6 +3,8 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/Main/**/build/
 !**/src/test/**/build/
+### account data ###
+src/main/java/accounts.json
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

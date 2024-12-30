@@ -11,11 +11,11 @@ public class Users {
 
     @Override
     public String toString() {
-
-        String s = "Loaded %d Accounts:\n".formatted(users.length);
+        StringBuilder sb = new StringBuilder();
+        sb.append("Loaded %d Accounts:\n".formatted(users.length));
         for (int i = 0; i < users.length; i++) {
-            s+="%d. %s\n".formatted(i,users[i]);
+            sb.append("%d. %s\n".formatted(i,users[i]));
         }
-        return s;
+        return sb.toString();
     }
 }
