@@ -4,7 +4,7 @@ build/
 !**/src/Main/**/build/
 !**/src/test/**/build/
 ### account data ###
-src/main/java/accounts.json
+accounts.json
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

@@ -1,9 +1,26 @@
 plugins {
     id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
 group 'com.paroryx'
 version '1.0-SNAPSHOT'
+
+
+jar {
+    archiveBaseName = 'NeoState'
+    archiveVersion = '1.0'
+
+    manifest {
+        attributes(
+                'Main-Class': 'com.paroryx.Main'
+        )
+    }
+}
+shadowJar {
+    archiveBaseName.set('NeoState')
+    archiveVersion.set('1.0')
+}
 
 repositories {
     mavenCentral()

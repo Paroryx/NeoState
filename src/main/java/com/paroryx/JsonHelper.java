@@ -1,3 +1,5 @@
+package com.paroryx;
+
 import com.google.gson.Gson;
 
 import java.io.*;

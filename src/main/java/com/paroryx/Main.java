@@ -1,6 +1,8 @@
+package com.paroryx;
+
 import java.io.*;
 public class Main {
-    private static final File USERDATA = new File("src/main/java/accounts.json");
+    private static final File USERDATA = new File("accounts.json");
     private static final UserManager userManager = new UserManager(USERDATA);
 
     public static void main(String[] args) {

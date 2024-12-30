@@ -1,3 +1,7 @@
+package com.paroryx;
+
+import org.fusesource.jansi.Ansi;
+
 public class Users {
     private User[] users;
 
@@ -12,7 +16,7 @@ public class Users {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Loaded %d Accounts:\n".formatted(users.length));
+        sb.append(Ansi.ansi().fgYellow().a("Loaded %d Accounts:\n".formatted(users.length)));
         for (int i = 0; i < users.length; i++) {
             sb.append("%d. %s\n".formatted(i,users[i]));
         }

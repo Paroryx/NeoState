@@ -1,3 +1,8 @@
+package com.paroryx;
+
+import org.fusesource.jansi.Ansi;
+import org.fusesource.jansi.AnsiConsole;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
@@ -16,9 +21,9 @@ public class UserManager {
 
     public void resetUsers(){
         if(FILE.delete()){
-            System.out.printf("successfully deleted %s\n",FILE.getName());
+            AnsiConsole.out.println(Ansi.ansi().fg(Ansi.Color.GREEN).a("Successfully deleted: ").reset() + FILE.getName());
         }else{
-            System.out.printf("something went wrong, please delete %s manually\n",FILE.getName());
+            AnsiConsole.out.println(Ansi.ansi().fg(Ansi.Color.RED).a("Something went wrong, please delete manually: ").reset() + FILE.getName());
         }
     }
 
@@ -52,11 +57,11 @@ public class UserManager {
 
         JsonHelper.saveUsersToJson(users,FILE);
 
-        System.out.printf("Successfully added %s\n",user.getUsername());
+        AnsiConsole.out.println(Ansi.ansi().fg(Ansi.Color.GREEN).a("Successfully added: ").reset() + user.getUsername());
     }
     public void deleteUser() throws IOException {
         int i;
-        System.out.println("Select Account to delete:");
+        System.out.println(Ansi.ansi().fg(Ansi.Color.CYAN).a("Select Account to delete:").reset());
         if(users.getUsers().length > 1) {
             i = ConsoleUI.selectUser(FILE,users);
         }else{
@@ -82,15 +87,16 @@ public class UserManager {
 
         JsonHelper.saveUsersToJson(users,FILE);
 
-        System.out.printf("successfully removed %s\n",deletedUser.getUsername());
+        AnsiConsole.out.println(Ansi.ansi().fg(Ansi.Color.GREEN).a("Successfully removed: ").reset() + deletedUser.getUsername());
         if(i==userid){
-            System.out.println("Select Account to use");
+            System.out.println(Ansi.ansi().fg(Ansi.Color.CYAN).a("Select Account to use:").reset());
             userid = ConsoleUI.selectUser(FILE,users);
         }
     }
 
     public void validateToken() {
         while(!DiscordBot.checkToken(EncryptionHelper.decryptToken(users.getUsers()[userid].getToken()))){
+            AnsiConsole.out.println(Ansi.ansi().fg(Ansi.Color.RED).a("Invalid token! Please re-enter.").reset());
             ConsoleUI.readToken(users, userid);
 
             try {
